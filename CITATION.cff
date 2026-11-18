@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Sassi"
+    given-names: "Victor"
+title: "temporal-foveated-rendering"
+version: 1.0.0
+date-released: 2026-11-18
+url: "https://github.com/ferrarisassi/temporal-foveated-rendering"
