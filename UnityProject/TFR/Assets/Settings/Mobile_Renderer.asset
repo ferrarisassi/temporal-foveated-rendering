@@ -40,7 +40,8 @@ MonoBehaviour:
     probeVolumeBlendStatesCS: {fileID: 0}
   m_RendererFeatures:
   - {fileID: -5128224835543231802}
-  m_RendererFeatureMap: 
+  - {fileID: 6628193842578106694}
+  m_RendererFeatureMap: 46a94ca12e13fc5b
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 0}
@@ -69,3 +70,20 @@ MonoBehaviour:
   m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
+--- !u!114 &6628193842578106694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ecef439b6f5494ca934f5c23006423, type: 3}
+  m_Name: TemporalFoveationFeature
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.TemporalFoveationFeature
+  m_Active: 1
+  settings:
+    shader: {fileID: 4800000, guid: cdbb81d8e31598b4a808691c68409a99, type: 3}
+    maskEvent: 250
+    compositeEvent: 550
