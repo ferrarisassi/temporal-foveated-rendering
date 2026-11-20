@@ -119,6 +119,112 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &33776260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33776264}
+  - component: {fileID: 33776263}
+  - component: {fileID: 33776262}
+  - component: {fileID: 33776261}
+  m_Layer: 0
+  m_Name: FTR_Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &33776261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33776260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e57dff225614194fabad51fce917ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.FollowTarget
+  origin: {fileID: 0}
+  distance: 2.5
+  height: 0
+--- !u!23 &33776262
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33776260}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &33776263
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33776260}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &33776264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33776260}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &89345345
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +658,331 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!4 &594962172 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+  m_PrefabInstance: {fileID: 351130093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &594962173 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+  m_PrefabInstance: {fileID: 351130093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &655291572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 655291579}
+  - component: {fileID: 655291578}
+  - component: {fileID: 655291577}
+  - component: {fileID: 655291576}
+  - component: {fileID: 655291575}
+  - component: {fileID: 655291574}
+  - component: {fileID: 655291573}
+  m_Layer: 0
+  m_Name: FTR_System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &655291573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655291572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4eef9f5341bba045bb4a330649eb9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.ExperimentRunner
+  controller: {fileID: 655291577}
+  logger: {fileID: 655291576}
+  hud: {fileID: 937375030}
+  target: {fileID: 33776261}
+  head: {fileID: 594962172}
+  participantNumber: 1
+  autoStart: 0
+  conditions: 00000000010000000200000003000000
+  repetitions: 2
+  restSeconds: 8
+  tasks:
+  - id: parado
+    instruction: Fique parado olhando para a esfera.
+    target: 0
+    sweepAmplitudeDeg: 60
+    sweepPeakDps: 20
+    instructionSeconds: 4
+    warmupSeconds: 5
+    measureSeconds: 40
+  - id: olhar_devagar
+    instruction: "Acompanhe a esfera com a cabe\xE7a."
+    target: 1
+    sweepAmplitudeDeg: 60
+    sweepPeakDps: 20
+    instructionSeconds: 4
+    warmupSeconds: 5
+    measureSeconds: 40
+  - id: girar_moderado
+    instruction: "Acompanhe a esfera com a cabe\xE7a."
+    target: 1
+    sweepAmplitudeDeg: 60
+    sweepPeakDps: 70
+    instructionSeconds: 4
+    warmupSeconds: 5
+    measureSeconds: 40
+  - id: girar_rapido
+    instruction: "Acompanhe a esfera com a cabe\xE7a.\nEla vai se mover r\xE1pido."
+    target: 1
+    sweepAmplitudeDeg: 60
+    sweepPeakDps: 160
+    instructionSeconds: 4
+    warmupSeconds: 5
+    measureSeconds: 40
+  - id: andar
+    instruction: "Caminhe devagar de um lado para o outro\nna sua \xE1rea livre,
+      olhando para a frente."
+    target: 2
+    sweepAmplitudeDeg: 60
+    sweepPeakDps: 20
+    instructionSeconds: 4
+    warmupSeconds: 5
+    measureSeconds: 40
+  - id: livre
+    instruction: Explore livremente, olhando ao redor.
+    target: 2
+    sweepAmplitudeDeg: 60
+    sweepPeakDps: 20
+    instructionSeconds: 4
+    warmupSeconds: 5
+    measureSeconds: 30
+--- !u!114 &655291574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655291572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5d0fa15d5b12499caf9b9ad2876fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.DebugToggles
+  controller: {fileID: 655291577}
+--- !u!114 &655291575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655291572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4bae6adc72bc84e956ee4121dd48d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.QuestPerfSettings
+  displayFrequency: 90
+  disableFixedFoveatedRendering: 1
+  sustainedHighClocks: 1
+--- !u!114 &655291576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655291572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e39829ce9d49f40bd625f7cb5b37fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.SessionLogger
+  controller: {fileID: 655291577}
+  motion: {fileID: 655291578}
+  logEveryFrame: 1
+--- !u!114 &655291577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655291572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f3c38937e651dc41ba3357aa1149ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.TemporalFoveationController
+  xrCamera: {fileID: 594962173}
+  motion: {fileID: 655291578}
+  mode: 3
+  foveaDeg: 15
+  midDeg: 30
+  bandDeg: 3
+  fixedDivMid: 2
+  fixedDivFar: 2
+  midMinHz: 18
+  farMinHz: 6
+  midCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  farCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.35
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxDivisor: 30
+  slowDownHold: 0.3
+  debugOverlay: 0
+  flipYReprojection: 0
+  freezePeripheryTest: 0
+--- !u!114 &655291578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655291572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d83e5d3f4f6cec4c86edea13419dc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.MotionTracker
+  head: {fileID: 594962172}
+  attackTime: 0.03
+  releaseTime: 0.4
+  angularFullDps: 120
+  linearFullMps: 1.2
+  handFullMps: 2
+  includeHands: 0
+  angularDeadZoneDps: 2
+  linearDeadZoneMps: 0.02
+  stillMaxDps: 4
+  stillMaxMps: 0.05
+  slowLookMaxDps: 35
+  walkingMinMps: 0.35
+  fastMinDps: 120
+  fastMinMps: 1.2
+  activityDwell: 0.25
+--- !u!4 &655291579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655291572}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &663720895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 663720897}
+  - component: {fileID: 663720896}
+  m_Layer: 0
+  m_Name: FTR_Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &663720896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663720895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9a0065b269dd84cb3e43fb202050ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.LoadEnvironment
+  heavyMaterial: {fileID: 2100000, guid: 4044f72a152bddb449d2840f05ac4cf5, type: 2}
+  iterations: 48
+  radius: 4
+  columns: 24
+  rows: 6
+  panelHeight: 0.9
+  buildFloorAndCeiling: 1
+--- !u!4 &663720897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663720895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &740441086
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +1055,54 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832575517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &937375029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 937375031}
+  - component: {fileID: 937375030}
+  m_Layer: 0
+  m_Name: FTR_HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &937375030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937375029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a980aab4a659f6a49aa57ce1662e644b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FoveatedTemporal::FoveatedTemporal.HudText
+  head: {fileID: 594962172}
+  distance: 1.6
+  followSpeed: 4
+  characterSize: 0.012
+--- !u!4 &937375031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937375029}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -734,3 +1213,7 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 351130093}
+  - {fileID: 655291579}
+  - {fileID: 937375031}
+  - {fileID: 33776264}
+  - {fileID: 663720897}
